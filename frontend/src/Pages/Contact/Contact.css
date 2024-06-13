@@ -1,0 +1,83 @@
+.contact .info_heading {
+  font-size: 16px;
+  color: #0f0f0f;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.contact .title {
+  font-size: 14px;
+  color: #bcbcbc;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.contact .text {
+  color: #898989;
+  font-size: 16px;
+}
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  gap: 40px;
+  margin: 100px auto;
+}
+.contact .contact_left {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.contact .contact_info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contact .contact_info>div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contact .contact_left i{
+    background-color: white;
+    padding: 20px;
+    border-radius: 13px;
+    font-size: 30px;
+    color: #6370ff;
+}
+.contact .contact_left_bottom .contact_social_icon{
+    display: flex;
+    gap: 20px;
+}
+.contact .contact_left_bottom .contact_social_icon i{
+    border-radius: 50px;
+}
+.contact .contact_right{
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px;
+    flex: 1;
+}
+.contact .contact_right .contact_head{
+    font-size: 40px;
+    margin-bottom: 30px ;
+}
+.contact .contact_right .contact_head span{
+    color: #6370ff;
+
+}
+.contact .contact_right .contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact .contact_right .contact_form input, textarea{
+    padding: 15px;
+    background-color: #fbfbfc;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 4px;
+}
+.contact .contact_right .contact_form input.btn{
+    background-color: #0f0f0f;
+    color: white;
+}
